@@ -28,6 +28,7 @@ struct ContentView: View {
           .bold()
       }
       Button("Hit me") {
+        print("Hello, SwiftUI!")
       }
     }
   }
