@@ -40,7 +40,7 @@ struct PointsView: View {
 struct PointsView_Previews: PreviewProvider {
   static private var alertIsVisible = Binding.constant(false)
   static private var sliderValue = Binding.constant(50.0)
-  static private var game = Binding.constant(Game())
+  static private var game = Binding.constant(Game(loadTestData: true))
   
   static var previews: some View {
     PointsView(alertIsVisible: alertIsVisible, sliderValue: sliderValue, game: game)
