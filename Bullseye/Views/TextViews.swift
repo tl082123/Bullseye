@@ -78,7 +78,7 @@ struct ButtonText: View {
       .background(
         Color.accentColor
       )
-      .foregroundColor(Color(.white))
+      .foregroundColor(.white)
       .cornerRadius(12)
   }
 }
